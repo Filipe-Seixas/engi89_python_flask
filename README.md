@@ -4,6 +4,12 @@
 
 - Flask is a micro web framework written in Python. It's used for web app development with Python.
 
+### Diagram
+
+<p align="center">
+  <img src="img/MVC_Diagram.PNG">
+</p>
+
 ### Implementation
 
 - Install & Import Flask
