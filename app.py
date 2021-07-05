@@ -11,7 +11,9 @@ app = Flask(__name__)  # Creating an app instance
 # Connect function to browser
 @app.route("/")  # Decorating our function with @app.route to set the route in our browser
 def index():
-    return "Welcome to Engineering 89 DevOps team."
+    return "Welcome to Engineering 89 DevOps team." \
+           "<h3> <a href='/welcome'>Welcome</a> </h3>"\
+           "<h3> <a href='/login'>Login</a> </h3>"
 
 # "flask run" in terminal to run flask
 
